@@ -1,0 +1,19 @@
+VDR Plugin 'smtled' Revision History
+------------------------------------
+
+2007-08-30: Version 0.0.1
+
+- Initial revision.
+
+2007-09-01: Version 0.0.2
+
+- Minor bugfix for channels >=10000
+- The red error led is now enabled when recording
+
+2007-09-25: Version 0.0.3
+
+- Fix: error led will now not turn off, when another record ist active
+
+2008-04-21: Version 0.0.4
+
+- Integrated Hack by AndreasH, the display will now show the last tuned channel while running epg-scan -> http://zenvdr.lame-delegation.de/mediawiki/index.php?title=ZenVDR_changes#smtled_fix

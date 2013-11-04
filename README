@@ -1,0 +1,12 @@
+This is a "plugin" for the Video Disk Recorder (VDR).
+
+Written by:                  Mario Hildebrandt 
+
+Project's homepage:          none 
+
+
+See the file COPYING for license information.
+
+Description: This Plugin displays the current channel on the LED display of the Samsung SMT-7020S.
+
+Based upon Plugin Status by Klaus Schmidinger.

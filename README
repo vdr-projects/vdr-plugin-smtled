@@ -1,8 +1,9 @@
 This is a "plugin" for the Video Disk Recorder (VDR).
 
-Written by:                  Mario Hildebrandt 
+Written by:                  Mario Hildebrandt
+Further development:         Thomas Maass
 
-Project's homepage:          none 
+Project's homepage:          http://projects.vdr-developer.org/projects/plg-smtled
 
 
 See the file COPYING for license information.

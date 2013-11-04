@@ -17,3 +17,7 @@ VDR Plugin 'smtled' Revision History
 2008-04-21: Version 0.0.4
 
 - Integrated Hack by AndreasH, the display will now show the last tuned channel while running epg-scan -> http://zenvdr.lame-delegation.de/mediawiki/index.php?title=ZenVDR_changes#smtled_fix
+
+2013-11-03: Version 0.0.5
+
+- Fixed for VDR 2.0.x

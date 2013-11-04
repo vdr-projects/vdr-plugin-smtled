@@ -21,7 +21,7 @@
 #include <vdr/status.h>
 
 
-static const char *VERSION        = "0.0.4";
+static const char *VERSION        = "0.0.5";
 static const char *DESCRIPTION    = "Samsung LED display plugin";
 static const char *MAINMENUENTRY  = NULL;
 
@@ -34,7 +34,7 @@ private:
   int reccount;
 protected:
   virtual void SetLED(char * cr);
-  virtual void ChannelSwitch(const cDevice *Device, int ChannelNumber);
+  virtual void ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView = true);
   virtual void Recording(const cDevice *Device, const char *Name, const char *FileName, bool On);
 public:
   cSmtledTest(void);
@@ -62,7 +62,7 @@ void cSmtledTest::SetLED(char* cw)
 
 }
 
-void cSmtledTest::ChannelSwitch(const cDevice *Device, int ChannelNumber)
+void cSmtledTest::ChannelSwitch(const cDevice *Device, int ChannelNumber, bool LiveView)
 {
    if ( !Device->IsPrimaryDevice() || (ChannelNumber == 0) ) {
      dsyslog("status: cSmtledTest::ChannelSwitch ignore device %d channel %d",
